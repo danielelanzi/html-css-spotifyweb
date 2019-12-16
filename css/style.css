@@ -39,7 +39,7 @@ body{
 .nav_left{
   display: flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,1);
   width: 230px;
   height: 100%;
   padding-top: 24px;
@@ -75,7 +75,7 @@ body{
   margin-right: 16px;
 }
 
-.btn_border_green{
+.left_border_green{
   border-left: 3px solid #1ed760;
 }
 
@@ -227,6 +227,7 @@ main{
 .main_content{
   width: calc(100% - 230px);
   height: 100%;
+  padding: 90px 20px 0;
   background-color: #121212;
   overflow-y: scroll;
 }
@@ -268,5 +269,24 @@ main{
   .call-to-action{
     width: calc(100% - 40px);
   }
+  .main_content{
+    width: calc(100% - 40px);
+  }
+}
 
   /* CATEGORIE */
+.menu_categories a{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.bottom_border_green:after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #1ed760;
+  margin: 1px auto 0;
+}
